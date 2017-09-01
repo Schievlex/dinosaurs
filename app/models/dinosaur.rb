@@ -4,6 +4,7 @@ class Dinosaur < ApplicationRecord
     order(:name)
   	end
 
+
   	def is_baby?
   		age < 3
   	end
